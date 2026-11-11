@@ -1,0 +1,16 @@
+
+PROJECT: Robust Object Detection in Low-Visibility Environments
+
+This project includes and uses GroundingDINO, an open-vocabulary object detection framework developed by IDEA Research.
+
+GroundingDINO source code and associated materials retain their original authorship and licensing notices and are distributed under the Apache License, Version 2.0.
+
+Original GroundingDINO repository:
+https://github.com/IDEA-Research/GroundingDINO
+
+Original research paper:
+https://arxiv.org/abs/2303.05499
+
+Project-specific work includes fog and blur augmentation scripts, video inference integration, confidence filtering, temporal detection persistence, and the Gradio-based interface.
+
+These project-specific components are presented as academic project contributions and should not be confused with the original GroundingDINO implementation.

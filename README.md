@@ -8,6 +8,24 @@ Object detection becomes challenging in adverse weather conditions such as fog, 
 
 This project explores a low-visibility detection workflow using synthetic fog and blur augmentation, text-prompt-based object detection, confidence filtering, and temporal detection stability.
 
+## Original Project Contributions
+
+This project builds an experimental low-visibility object detection workflow around the GroundingDINO framework.
+
+The project-specific contributions include:
+
+- **Synthetic Fog Augmentation:** OpenCV and NumPy scripts to simulate fog and blur in Cityscapes validation images.
+- **Video Inference Pipeline:** Integration of GroundingDINO for text-prompt-based object detection in video.
+- **Detection Filtering:** Confidence-based filtering of predicted bounding boxes.
+- **Temporal Stability:** Persistence of previous detections for a limited number of missing frames.
+- **Interactive Interface:** A Gradio-based interface for image detection using text prompts.
+
+### Third-Party Framework
+
+GroundingDINO is an existing open-vocabulary object detection framework developed by IDEA Research. Its original implementation is retained with its associated attribution and licensing information.
+
+This repository combines that framework with project-specific augmentation and inference workflows. It does not claim authorship of the original GroundingDINO architecture or implementation.
+
 ## Key Components
 
 ### 1. Synthetic Fog and Blur Augmentation
